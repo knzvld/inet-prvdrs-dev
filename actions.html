@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/tarifs_style.css" />
+    <link rel="stylesheet" href="./styles/blocks_style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Internet-providers</title>
+  </head>
+  <body>
+    <!--Header-->
+    <div class="header lite">
+      <div class="container">
+        <div class="header_main">
+          <div class="header_main_el header_main_logo">
+            <img class="header_main_logo_desc" src="./media/logo-light.png" />
+            <img
+              class="header_main_logo_mob"
+              src="./media/logo_mob_light.png"
+            />
+          </div>
+          <div class="header_main_el header_main_city">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M19 10.1429C19 11.0358 18.6431 12.1722 17.9991 13.4398C17.3647 14.6884 16.498 15.9751 15.5867 17.1426C14.6764 18.3088 13.74 19.3326 12.9816 20.0562C12.6005 20.4198 12.2796 20.6929 12.0404 20.8679C12.0264 20.8781 12.0129 20.8879 12 20.8971C11.9871 20.8879 11.9736 20.8781 11.9596 20.8679C11.7204 20.6929 11.3995 20.4198 11.0184 20.0562C10.26 19.3326 9.32361 18.3088 8.41329 17.1426C7.50202 15.9751 6.63527 14.6884 6.00091 13.4398C5.35686 12.1722 5 11.0358 5 10.1429C5 6.18121 8.15062 3 12 3C15.8494 3 19 6.18121 19 10.1429ZM11.7674 21.0409C11.7675 21.0405 11.773 21.0378 11.7833 21.034C11.7724 21.0394 11.7672 21.0413 11.7674 21.0409ZM12.2167 21.034C12.227 21.0378 12.2324 21.0405 12.2326 21.0409C12.2328 21.0413 12.2276 21.0394 12.2167 21.034ZM20 10.1429C20 14.64 13 22 12 22C11 22 4 14.64 4 10.1429C4 5.64568 7.58172 2 12 2C16.4183 2 20 5.64568 20 10.1429ZM14 10C14 11.1046 13.1046 12 12 12C10.8954 12 10 11.1046 10 10C10 8.89543 10.8954 8 12 8C13.1046 8 14 8.89543 14 10ZM15 10C15 11.6569 13.6569 13 12 13C10.3431 13 9 11.6569 9 10C9 8.34315 10.3431 7 12 7C13.6569 7 15 8.34315 15 10Z"
+                fill="#8DC2FF"
+              />
+            </svg>
+            <span>Москва</span>
+          </div>
+          <div class="header_main_el header_main_address">
+            <span>Проверить адрес</span>
+          </div>
+          <div class="header_main_el header_main_menu">
+            <div class="header_main_menu_call">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.5573 12.4492C15.3329 16.2258 16.199 11.8555 18.6026 14.2597C20.9185 16.5762 22.2517 17.0434 19.3129 19.9829C18.9431 20.2749 16.6077 23.8374 8.385 15.6223C0.162297 7.39757 3.72384 5.06154 4.01577 4.69167C6.96427 1.74244 7.42163 3.08565 9.73761 5.40222C12.1509 7.80638 7.78167 8.67266 11.5573 12.4492Z"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="header_main_menu_burger">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 28 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.5 14H24.5"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M3.5 7H24.5"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M3.5 21H24.5"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="header_main_el header_main_call">
+            <div class="header_main_call_elms">
+              <div class="num"><a>8 (499) 110-01-19</a></div>
+            </div>
+            <div class="header_main_callBtn">
+              <a>Позвонить мне</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_nav_f">
+        <div class="container">
+          <div class="header_nav">
+            <a href="/catalog.html"
+              ><div class="header_nav_el">Каталог провайдеров</div></a
+            >
+            <a href="/tarifs.html"><div class="header_nav_el">Тарифы</div></a>
+            <a href="/actions.html"><div class="header_nav_el">Акции</div></a>
+            <a href="/news.html"> <div class="header_nav_el">Новости</div></a>
+            <a href="/reviews.html"><div class="header_nav_el">Отзывы</div></a>
+            <a href="/office-internet.html">
+              <div class="header_nav_el">Интернет в офис</div></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="breadcrumbs">
+        <div class="item">Главная</div>
+        <div class="item active">Акции</div>
+      </div>
+    </div>
+    <!--Header-->
+
+    <div class="pd brd tp0">
+      <div class="container">
+        <div class="tarif_table">
+          <h2>
+            Акционные тарифы от интернет-провайдеров<br />
+            в вашем городе (Москва)
+          </h2>
+          <div class="tarif_filters_controllers">
+            <div class="filter_show">
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3 7C3 6.44772 3.44772 6 4 6L10 6C10.5523 6 11 6.44772 11 7C11 7.55228 10.5523 8 10 8L4 8C3.44772 8 3 7.55228 3 7Z"
+                  fill="#2387FA"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10 15C10 14.4477 10.4477 14 11 14L18 14C18.5523 14 19 14.4477 19 15C19 15.5523 18.5523 16 18 16L11 16C10.4477 16 10 15.5523 10 15Z"
+                  fill="#2387FA"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M15 7C15 6.44772 15.4477 6 16 6L18 6C18.5523 6 19 6.44772 19 7C19 7.55228 18.5523 8 18 8L16 8C15.4477 8 15 7.55228 15 7Z"
+                  fill="#2387FA"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3 15C3 14.4477 3.44772 14 4 14H6C6.55228 14 7 14.4477 7 15C7 15.5523 6.55228 16 6 16H4C3.44772 16 3 15.5523 3 15Z"
+                  fill="#2387FA"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M13 8C13.5523 8 14 7.55228 14 7C14 6.44772 13.5523 6 13 6C12.4477 6 12 6.44772 12 7C12 7.55228 12.4477 8 13 8ZM13 10C14.6569 10 16 8.65685 16 7C16 5.34315 14.6569 4 13 4C11.3431 4 10 5.34315 10 7C10 8.65685 11.3431 10 13 10Z"
+                  fill="#2387FA"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M9 16C9.55228 16 10 15.5523 10 15C10 14.4477 9.55228 14 9 14C8.44772 14 8 14.4477 8 15C8 15.5523 8.44772 16 9 16ZM9 18C10.6569 18 12 16.6569 12 15C12 13.3431 10.6569 12 9 12C7.34315 12 6 13.3431 6 15C6 16.6569 7.34315 18 9 18Z"
+                  fill="#2387FA"
+                />
+              </svg>
+              <span>Фильтры</span
+              ><svg
+                width="12"
+                height="8"
+                viewBox="0 0 12 8"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M5.29284 0.89288C5.68337 0.502356 6.31653 0.502356 6.70706 0.89288L11.5071 5.69288C11.8976 6.0834 11.8976 6.71657 11.5071 7.10709C11.1165 7.49762 10.4834 7.49762 10.0928 7.10709L5.99995 3.0142L1.90706 7.10709C1.51653 7.49762 0.883369 7.49762 0.492844 7.10709C0.10232 6.71657 0.10232 6.0834 0.492844 5.69288L5.29284 0.89288Z"
+                  fill="#0971E8"
+                />
+              </svg>
+            </div>
+            <div class="filter_item">
+              по скидке
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3 12L22 12"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M22 12L14 4"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M22 12L14 20"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="filter_item popular selected">
+              по популярности
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3 12L22 12"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M22 12L14 4"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M22 12L14 20"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="filter_item">
+              по скорости
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3 12L22 12"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M22 12L14 4"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M22 12L14 20"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="filter_item">
+              по цене
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3 12L22 12"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M22 12L14 4"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M22 12L14 20"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="filter_view">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3 6.33333C3 5.59695 3.59695 5 4.33333 5C5.06971 5 5.66667 5.59695 5.66667 6.33333C5.66667 7.06971 5.06971 7.66667 4.33333 7.66667C3.59695 7.66667 3 7.06971 3 6.33333Z"
+                  fill="#A2A2A2"
+                />
+                <path
+                  d="M3 11.6667C3 10.9303 3.59695 10.3333 4.33333 10.3333C5.06971 10.3333 5.66667 10.9303 5.66667 11.6667C5.66667 12.403 5.06971 13 4.33333 13C3.59695 13 3 12.403 3 11.6667Z"
+                  fill="#A2A2A2"
+                />
+                <path
+                  d="M3 17C3 16.2636 3.59695 15.6667 4.33333 15.6667C5.06971 15.6667 5.66667 16.2636 5.66667 17C5.66667 17.7364 5.06971 18.3333 4.33333 18.3333C3.59695 18.3333 3 17.7364 3 17Z"
+                  fill="#A2A2A2"
+                />
+                <path
+                  d="M7 6.33333C7 5.59695 7.59695 5 8.33333 5H18.6667C19.403 5 20 5.59695 20 6.33333C20 7.06971 19.403 7.66667 18.6667 7.66667H8.33333C7.59695 7.66667 7 7.06971 7 6.33333Z"
+                  fill="#A2A2A2"
+                />
+                <path
+                  d="M7 11.6667C7 10.9303 7.59695 10.3333 8.33333 10.3333H18.6667C19.403 10.3333 20 10.9303 20 11.6667C20 12.403 19.403 13 18.6667 13H8.33333C7.59695 13 7 12.403 7 11.6667Z"
+                  fill="#A2A2A2"
+                />
+                <path
+                  d="M7 17C7 16.2636 7.59695 15.6667 8.33333 15.6667H18.6667C19.403 15.6667 20 16.2636 20 17C20 17.7364 19.403 18.3333 18.6667 18.3333H8.33333C7.59695 18.3333 7 17.7364 7 17Z"
+                  fill="#A2A2A2"
+                />
+              </svg>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5 6.6C5 5.71634 5.71634 5 6.6 5H9.6C10.4837 5 11.2 5.71634 11.2 6.6V9.6C11.2 10.4837 10.4837 11.2 9.6 11.2H6.6C5.71634 11.2 5 10.4837 5 9.6V6.6Z"
+                  fill="#0971E8"
+                />
+                <path
+                  d="M5 14.4C5 13.5163 5.71634 12.8 6.6 12.8H9.6C10.4837 12.8 11.2 13.5163 11.2 14.4V17.4C11.2 18.2837 10.4837 19 9.6 19H6.6C5.71634 19 5 18.2837 5 17.4V14.4Z"
+                  fill="#0971E8"
+                />
+                <path
+                  d="M12.8 6.6C12.8 5.71634 13.5163 5 14.4 5H17.4C18.2837 5 19 5.71634 19 6.6V9.6C19 10.4837 18.2837 11.2 17.4 11.2H14.4C13.5163 11.2 12.8 10.4837 12.8 9.6V6.6Z"
+                  fill="#0971E8"
+                />
+                <path
+                  d="M12.8 14.4C12.8 13.5163 13.5163 12.8 14.4 12.8H17.4C18.2837 12.8 19 13.5163 19 14.4V17.4C19 18.2837 18.2837 19 17.4 19H14.4C13.5163 19 12.8 18.2837 12.8 17.4V14.4Z"
+                  fill="#0971E8"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="tarifs_list">
+            <div class="tarif_card">
+              <div class="tarif_id">
+                <img src="./media/providers-logo/mts.png" />
+              </div>
+              <div class="card_item tarif_title">
+                <a href="/">МЫ МТС+ 1 ГБ GPON</a>
+              </div>
+              <div class="card_item tarif_mobile">
+                <div class="inf_grid">
+                  <div class="item txt_bolder"><span>20</span> Гб</div>
+                  <div class="item txt_bolder"><span>100</span> минут</div>
+                  <div class="item txt_bolder"><span>50</span> смс</div>
+                </div>
+              </div>
+              <div class="card_item tarif_soc">
+                <div class="tarif_txt">
+                  <span>Безлимитные мессенджеры</span
+                  ><span class="inf_sign">?</span>
+                </div>
+                <img src="./media/providers-logo/socnet.png" />
+              </div>
+              <div class="card_item tarif_serv">
+                <div class="tarif_txt">
+                  <span>Платит один – пользуются все</span>
+                </div>
+                <div class="tarif_txt"><span>До пяти доп. номеров</span></div>
+                <div class="tarif_txt"><span>Онлайн-кинотеатр KION</span></div>
+              </div>
+              <div class="card_item tarif_home">
+                <div class="inf_grid">
+                  <div class="item txt_bolder"><span>100</span> Мбит/сек</div>
+                  <div class="item txt_bolder clickable">
+                    <span>120</span> <span>каналов</span>
+                  </div>
+                </div>
+                <div class="equip_inf">
+                  <div class="tarif_txt">
+                    <span>Wi-Fi роутер и ТВ-приставка в тарифе</span
+                    ><span class="inf_sign">?</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card_item tarif_purchase">
+                <div class="tarif_lbl">
+                  <span class="e">
+                    <span class="r">Первый месяц бесплатно</span>
+                  </span>
+                </div>
+                <div class="tarif_price">
+                  <div class="current"><span>1250</span> руб/мес</div>
+                  <div class="old"><span>2550</span> руб/мес</div>
+                </div>
+                <div class="tarif_price_inf">
+                  <span
+                    >первый месяц бесплатно, далее -50% со 2ого по 5ый месяц
+                    включительно</span
+                  >
+                </div>
+                <div class="tarif_connect">
+                  <button class="btnr prm">Подключить</button>
+                  <button class="btnr out options">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M3 7C3 6.44772 3.44772 6 4 6L10 6C10.5523 6 11 6.44772 11 7C11 7.55228 10.5523 8 10 8L4 8C3.44772 8 3 7.55228 3 7Z"
+                        fill="#2387FA"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M10 15C10 14.4477 10.4477 14 11 14L18 14C18.5523 14 19 14.4477 19 15C19 15.5523 18.5523 16 18 16L11 16C10.4477 16 10 15.5523 10 15Z"
+                        fill="#2387FA"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M15 7C15 6.44772 15.4477 6 16 6L18 6C18.5523 6 19 6.44772 19 7C19 7.55228 18.5523 8 18 8L16 8C15.4477 8 15 7.55228 15 7Z"
+                        fill="#2387FA"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M3 15C3 14.4477 3.44772 14 4 14H6C6.55228 14 7 14.4477 7 15C7 15.5523 6.55228 16 6 16H4C3.44772 16 3 15.5523 3 15Z"
+                        fill="#2387FA"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M13 8C13.5523 8 14 7.55228 14 7C14 6.44772 13.5523 6 13 6C12.4477 6 12 6.44772 12 7C12 7.55228 12.4477 8 13 8ZM13 10C14.6569 10 16 8.65685 16 7C16 5.34315 14.6569 4 13 4C11.3431 4 10 5.34315 10 7C10 8.65685 11.3431 10 13 10Z"
+                        fill="#2387FA"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M9 16C9.55228 16 10 15.5523 10 15C10 14.4477 9.55228 14 9 14C8.44772 14 8 14.4477 8 15C8 15.5523 8.44772 16 9 16ZM9 18C10.6569 18 12 16.6569 12 15C12 13.3431 10.6569 12 9 12C7.34315 12 6 13.3431 6 15C6 16.6569 7.34315 18 9 18Z"
+                        fill="#2387FA"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="tarif_card">
+              <div class="tarif_id">
+                <img src="./media/providers-logo/mts.png" />
+              </div>
+              <div class="card_item tarif_title">
+                <a href="/">МЫ МТС+ 1 ГБ GPON</a>
+              </div>
+              <div class="card_item tarif_mobile">
+                <div class="inf_grid">
+                  <div class="item txt_bolder"><span>20</span> Гб</div>
+                  <div class="item txt_bolder"><span>100</span> минут</div>
+                  <div class="item txt_bolder"><span>50</span> смс</div>
+                </div>
+              </div>
+              <div class="card_item tarif_soc">
+                <div class="tarif_txt">
+                  <span>Безлимитные мессенджеры</span
+                  ><span class="inf_sign">?</span>
+                </div>
+                <img src="./media/providers-logo/socnet.png" />
+              </div>
+              <div class="card_item tarif_serv">
+                <div class="tarif_txt">
+                  <span>Платит один – пользуются все</span>
+                </div>
+                <div class="tarif_txt"><span>До пяти доп. номеров</span></div>
+                <div class="tarif_txt"><span>Онлайн-кинотеатр KION</span></div>
+              </div>
+              <div class="card_item tarif_home">
+                <div class="inf_grid">
+                  <div class="item txt_bolder"><span>100</span> Мбит/сек</div>
+                  <div class="item txt_bolder clickable">
+                    <span>120</span> <span>каналов</span>
+                  </div>
+                </div>
+                <div class="equip_inf">
+                  <div class="tarif_txt">
+                    <span>Wi-Fi роутер и ТВ-приставка в тарифе</span
+                    ><span class="inf_sign">?</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card_item tarif_purchase">
+                <div class="tarif_lbl">
+                  <span class="e">
+                    <span class="r">Первый месяц бесплатно</span>
+                  </span>
+                </div>
+                <div class="tarif_price">
+                  <div class="current"><span>1250</span> руб/мес</div>
+                  <div class="old"><span>2550</span> руб/мес</div>
+                </div>
+                <div class="tarif_price_inf">
+                  <span
+                    >первый месяц бесплатно, далее -50% со 2ого по 5ый месяц
+                    включительно</span
+                  >
+                </div>
+                <div class="tarif_connect">
+                  <button class="btnr prm">Подключить</button>
+                  <button class="btnr out options">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M3 7C3 6.44772 3.44772 6 4 6L10 6C10.5523 6 11 6.44772 11 7C11 7.55228 10.5523 8 10 8L4 8C3.44772 8 3 7.55228 3 7Z"
+                        fill="#2387FA"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M10 15C10 14.4477 10.4477 14 11 14L18 14C18.5523 14 19 14.4477 19 15C19 15.5523 18.5523 16 18 16L11 16C10.4477 16 10 15.5523 10 15Z"
+                        fill="#2387FA"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M15 7C15 6.44772 15.4477 6 16 6L18 6C18.5523 6 19 6.44772 19 7C19 7.55228 18.5523 8 18 8L16 8C15.4477 8 15 7.55228 15 7Z"
+                        fill="#2387FA"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M3 15C3 14.4477 3.44772 14 4 14H6C6.55228 14 7 14.4477 7 15C7 15.5523 6.55228 16 6 16H4C3.44772 16 3 15.5523 3 15Z"
+                        fill="#2387FA"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M13 8C13.5523 8 14 7.55228 14 7C14 6.44772 13.5523 6 13 6C12.4477 6 12 6.44772 12 7C12 7.55228 12.4477 8 13 8ZM13 10C14.6569 10 16 8.65685 16 7C16 5.34315 14.6569 4 13 4C11.3431 4 10 5.34315 10 7C10 8.65685 11.3431 10 13 10Z"
+                        fill="#2387FA"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M9 16C9.55228 16 10 15.5523 10 15C10 14.4477 9.55228 14 9 14C8.44772 14 8 14.4477 8 15C8 15.5523 8.44772 16 9 16ZM9 18C10.6569 18 12 16.6569 12 15C12 13.3431 10.6569 12 9 12C7.34315 12 6 13.3431 6 15C6 16.6569 7.34315 18 9 18Z"
+                        fill="#2387FA"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="tarif_card">
+              <div class="tarif_id">
+                <img src="./media/providers-logo/mts.png" />
+              </div>
+              <div class="card_item tarif_title">
+                <a href="/">МЫ МТС+ 1 ГБ GPON</a>
+              </div>
+              <div class="card_item tarif_mobile">
+                <div class="inf_grid">
+                  <div class="item txt_bolder"><span>20</span> Гб</div>
+                  <div class="item txt_bolder"><span>100</span> минут</div>
+                  <div class="item txt_bolder"><span>50</span> смс</div>
+                </div>
+              </div>
+              <div class="card_item tarif_soc">
+                <div class="tarif_txt">
+                  <span>Безлимитные мессенджеры</span
+                  ><span class="inf_sign">?</span>
+                </div>
+                <img src="./media/providers-logo/socnet.png" />
+              </div>
+              <div class="card_item tarif_serv">
+                <div class="tarif_txt">
+                  <span>Платит один – пользуются все</span>
+                </div>
+                <div class="tarif_txt"><span>До пяти доп. номеров</span></div>
+                <div class="tarif_txt"><span>Онлайн-кинотеатр KION</span></div>
+              </div>
+              <div class="card_item tarif_home">
+                <div class="inf_grid">
+                  <div class="item txt_bolder"><span>100</span> Мбит/сек</div>
+                  <div class="item txt_bolder clickable">
+                    <span>120</span> <span>каналов</span>
+                  </div>
+                </div>
+                <div class="equip_inf">
+                  <div class="tarif_txt">
+                    <span>Wi-Fi роутер и ТВ-приставка в тарифе</span
+                    ><span class="inf_sign">?</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card_item tarif_purchase">
+                <div class="tarif_lbl">
+                  <span class="e">
+                    <span class="r">Первый месяц бесплатно</span>
+                  </span>
+                </div>
+                <div class="tarif_price">
+                  <div class="current"><span>1250</span> руб/мес</div>
+                  <div class="old"><span>2550</span> руб/мес</div>
+                </div>
+                <div class="tarif_price_inf">
+                  <span
+                    >первый месяц бесплатно, далее -50% со 2ого по 5ый месяц
+                    включительно</span
+                  >
+                </div>
+                <div class="tarif_connect">
+                  <button class="btnr prm">Подключить</button>
+                  <button class="btnr out options">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M3 7C3 6.44772 3.44772 6 4 6L10 6C10.5523 6 11 6.44772 11 7C11 7.55228 10.5523 8 10 8L4 8C3.44772 8 3 7.55228 3 7Z"
+                        fill="#2387FA"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M10 15C10 14.4477 10.4477 14 11 14L18 14C18.5523 14 19 14.4477 19 15C19 15.5523 18.5523 16 18 16L11 16C10.4477 16 10 15.5523 10 15Z"
+                        fill="#2387FA"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M15 7C15 6.44772 15.4477 6 16 6L18 6C18.5523 6 19 6.44772 19 7C19 7.55228 18.5523 8 18 8L16 8C15.4477 8 15 7.55228 15 7Z"
+                        fill="#2387FA"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M3 15C3 14.4477 3.44772 14 4 14H6C6.55228 14 7 14.4477 7 15C7 15.5523 6.55228 16 6 16H4C3.44772 16 3 15.5523 3 15Z"
+                        fill="#2387FA"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M13 8C13.5523 8 14 7.55228 14 7C14 6.44772 13.5523 6 13 6C12.4477 6 12 6.44772 12 7C12 7.55228 12.4477 8 13 8ZM13 10C14.6569 10 16 8.65685 16 7C16 5.34315 14.6569 4 13 4C11.3431 4 10 5.34315 10 7C10 8.65685 11.3431 10 13 10Z"
+                        fill="#2387FA"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M9 16C9.55228 16 10 15.5523 10 15C10 14.4477 9.55228 14 9 14C8.44772 14 8 14.4477 8 15C8 15.5523 8.44772 16 9 16ZM9 18C10.6569 18 12 16.6569 12 15C12 13.3431 10.6569 12 9 12C7.34315 12 6 13.3431 6 15C6 16.6569 7.34315 18 9 18Z"
+                        fill="#2387FA"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="all_trf_view">
+          <a href="/" class="btnr out">Показать еще тарифы</a>
+        </div>
+      </div>
+    </div>
+    <div class="pd brd">
+      <div class="container">
+        <div class="req_">
+          <h2>
+            Оформите заявку и мы сами <span>подберем</span><br />
+            для вас наиболее <span>выгодный тариф</span>
+          </h2>
+          <form class="req_form">
+            <input class="req_f_inp" type="tel" placeholder="+7" />
+            <button class="btnr sec" type="submit">Отправить заявку</button>
+            <div class="prv_lbl">
+              Нажимая на кнопку, я соглашаюсь на обработку
+              <a href="/">персональных данных</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="pd brd">
+      <div class="container">
+        <div class="t_line clm">
+          <div class="hdr">
+            <a href="/" class="inl no_un">
+              <h2>
+                Акции от интернет-провайдеров<br />
+                в вашем городе (Москва)
+              </h2>
+            </a>
+          </div>
+          <div class="provider-slctr">
+            <div class="item active" style="flex: 0 0 auto">Все провайдеры</div>
+            <div class="item">МТС</div>
+            <div class="item">МТС</div>
+            <div class="item">МТС</div>
+            <div class="item">МТС</div>
+            <div class="item">МТС</div>
+          </div>
+        </div>
+        <div class="last_news_grid fr3">
+          <div class="brd_card">
+            <div class="sm_lbl bl">МТС</div>
+            <div class="sm_lbl">18.08.2022</div>
+            <h3>ФИТ интернет 500 мбит/с Акция от првайдера МТС</h3>
+            <div class="txt_reg">
+              Подключить комплексные тарифы интернет-провайдеров Москвы на
+              Домашний Интернет🌐 и TV c мобильной связью по адресу дома☎️ +7
+              (499) 110-011-9 в любое удобное...
+            </div>
+          </div>
+          <div class="brd_card">
+            <div class="sm_lbl bl">МТС</div>
+            <div class="sm_lbl">18.08.2022</div>
+            <h3>ФИТ интернет 500 мбит/с Акция от првайдера МТС</h3>
+            <div class="txt_reg">
+              Подключить комплексные тарифы интернет-провайдеров Москвы на
+              Домашний Интернет🌐 и TV c мобильной связью по адресу дома☎️ +7
+              (499) 110-011-9 в любое удобное...
+            </div>
+          </div>
+          <div class="brd_card">
+            <div class="sm_lbl bl">МТС</div>
+            <div class="sm_lbl">18.08.2022</div>
+            <h3>ФИТ интернет 500 мбит/с Акция от првайдера МТС</h3>
+            <div class="txt_reg">
+              Подключить комплексные тарифы интернет-провайдеров Москвы на
+              Домашний Интернет🌐 и TV c мобильной связью по адресу дома☎️ +7
+              (499) 110-011-9 в любое удобное...
+            </div>
+          </div>
+          <div class="brd_card">
+            <div class="sm_lbl bl">МТС</div>
+            <div class="sm_lbl">18.08.2022</div>
+            <h3>ФИТ интернет 500 мбит/с Акция от првайдера МТС</h3>
+            <div class="txt_reg">
+              Подключить комплексные тарифы интернет-провайдеров Москвы на
+              Домашний Интернет🌐 и TV c мобильной связью по адресу дома☎️ +7
+              (499) 110-011-9 в любое удобное...
+            </div>
+          </div>
+          <div class="brd_card">
+            <div class="sm_lbl bl">МТС</div>
+            <div class="sm_lbl">18.08.2022</div>
+            <h3>ФИТ интернет 500 мбит/с Акция от првайдера МТС</h3>
+            <div class="txt_reg">
+              Подключить комплексные тарифы интернет-провайдеров Москвы на
+              Домашний Интернет🌐 и TV c мобильной связью по адресу дома☎️ +7
+              (499) 110-011-9 в любое удобное...
+            </div>
+          </div>
+          <div class="brd_card">
+            <div class="sm_lbl bl">МТС</div>
+            <div class="sm_lbl">18.08.2022</div>
+            <h3>ФИТ интернет 500 мбит/с Акция от првайдера МТС</h3>
+            <div class="txt_reg">
+              Подключить комплексные тарифы интернет-провайдеров Москвы на
+              Домашний Интернет🌐 и TV c мобильной связью по адресу дома☎️ +7
+              (499) 110-011-9 в любое удобное...
+            </div>
+          </div>
+        </div>
+        <div class="all_trf_view m40">
+          <a href="/" class="btnr out">Показать еще тарифы</a>
+        </div>
+      </div>
+    </div>
+    <div class="pd brd">
+      <div class="container">
+        <div class="actions_list">
+          <div class="t_line">
+            <div class="hdr">
+              <a href="/" class="inl no_un">
+                <h2>Топ-акции провайдеров</h2>
+                <svg
+                  width="7"
+                  height="11"
+                  viewBox="0 0 7 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.57129 2L5.14238 5.57109L1.57129 9.14218"
+                    stroke="#242424"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+            <div class="nvgs">
+              <div class="nvg prev">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3 12L22 12"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M22 12L14 4"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M22 12L14 20"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+              <div class="nvg next">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3 12L22 12"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M22 12L14 4"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M22 12L14 20"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="action_list_grid">
+            <div class="action_item">
+              <div class="action_img">
+                <img src="./media/act1.png" />
+              </div>
+              <div class="action_inf">
+                <div class="prvd_logo">
+                  <img src="./media/logo Mts.png" alt="" />
+                </div>
+                <div class="prvd_txt">
+                  <h3>Подключите МТС HOME выгодно</h3>
+                  <span>
+                    Подключите тариф Мы:МТС+ 1 Гб и получите Месяц Бесплатно!
+                    Далее со 2-го по 4-й месяц со скидкой 300 рублей. Бесплатное
+                    срочное подключение МТС уже сегодня!
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="action_item">
+              <div class="action_img">
+                <img src="./media/act2.png" />
+              </div>
+              <div class="action_inf">
+                <div class="prvd_logo">
+                  <img src="./media/logo Mts.png" alt="" />
+                </div>
+                <div class="prvd_txt">
+                  <h3>Подключите МТС HOME выгодно</h3>
+                  <span>
+                    Подключите тариф Мы:МТС+ 1 Гб и получите Месяц Бесплатно!
+                    Далее со 2-го по 4-й месяц со скидкой 300 рублей. Бесплатное
+                    срочное подключение МТС уже сегодня!
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pagination_list">
+            <div class="item active">01</div>
+            <div class="item">02</div>
+            <div class="item">03</div>
+            <div class="item">04</div>
+            <div class="item">05</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pd brd">
+      <div class="container">
+        <div class="ceo_txt">
+          <h2>Какого провайдра лучше выбрать в Москве</h2>
+          <div class="txt_reg">
+            Не знаете, какого провайдера лучше выбрать в Москве? У нас Вы
+            сможете ознакомиться с предложениями и преимуществами всех ведущих
+            провайдеров столицы, чтобы сделать рациональный выбор и не
+            ошибиться. Это может быть Билайн, Акадо, МГТС, Ростелеком или
+            множество других операторов. Мы следим за тем, чтобы каталог всегда
+            был актуален, пополнялся новыми пакетами от провайдеров. А если Вы
+            не хотите излишне углубляться в данный вопрос, то можете поступить
+            проще: оставьте заявку на нашем сайте или позвоните нам, и мы
+            поможем Вам определиться с выбором. Мы учтем все: чем Вас не
+            устраивает текущий провайдер, какие дополнительные возможности Вы
+            хотите получить и на какие услуги рассчитываете. Проанализировав
+            Ваши вводные данные, мы подберем для Вас оптимального провайдера.
+            Итак, если затрудняетесь, какого провайдера лучше выбрать для
+            интернета - ждем Вашей обратной связи! С нами интернет становится
+            действительно доступным!
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pd brd">
+      <div class="container">
+        <div class="t_line">
+          <div class="hdr">
+            <a href="/" class="inl no_un">
+              <h2>Последние новости</h2>
+              <svg
+                width="7"
+                height="11"
+                viewBox="0 0 7 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.57129 2L5.14238 5.57109L1.57129 9.14218"
+                  stroke="#242424"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="last_news_grid">
+          <div class="brd_card">
+            <div class="sm_lbl bl">МТС</div>
+            <div class="sm_lbl">18.08.2022</div>
+            <h3>Как смотреть Домашнее ТВ в хорошем качестве</h3>
+            <div class="txt_reg">
+              Подключить комплексные тарифы интернет-провайдеров Москвына
+              Домашний Интернет🌐 и TV c мобильной связью по адресу дома☎️ +7
+              (499) 110-011-9 в любое удобное время!
+            </div>
+          </div>
+          <div class="brd_card">
+            <div class="sm_lbl bl">МТС</div>
+            <div class="sm_lbl">18.08.2022</div>
+            <h3>Как смотреть Домашнее ТВ в хорошем качестве</h3>
+            <div class="txt_reg">
+              Подключить комплексные тарифы интернет-провайдеров Москвына
+              Домашний Интернет🌐 и TV c мобильной связью по адресу дома☎️ +7
+              (499) 110-011-9 в любое удобное время!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="nav_grid">
+          <div class="roww">
+            <img src="./media/logo.svg" alt="" />
+            <div class="logo_txt">
+              internet-providers.ru — сервис по подбору интенет-провайдера по
+              вашему адресу
+            </div>
+          </div>
+          <div class="roww l">
+            <div>Тарифы для дома</div>
+            <div>Тарифы для дома</div>
+            <div>Тарифы для дома</div>
+            <div>Тарифы для дома</div>
+          </div>
+          <div class="roww l">
+            <div>Тарифы для дома</div>
+            <div>Тарифы для дома</div>
+            <div>Тарифы для дома</div>
+            <div>Тарифы для дома</div>
+          </div>
+          <div class="roww l">
+            <div>Тарифы для дома</div>
+            <div>Тарифы для дома</div>
+            <div>Тарифы для дома</div>
+            <div>Тарифы для дома</div>
+          </div>
+        </div>
+      </div>
+      <div class="brd"></div>
+      <div class="container">
+        <div class="footer_btm">
+          <div class="cls">
+            <div class="call_link">8 (499) 110-01-19</div>
+            <div class="call_txt">Бесплатная консультация с 8:00 до 00:00</div>
+          </div>
+          <div class="btns">
+            <a class="btnr out">Позвонить мне</a>
+            <a class="btnr sec">Подключить интернет</a>
+            <a class="btnr prm">Проверить адрес</a>
+            <br />
+            <div class="fp_cont">
+              <div class="bbb"></div>
+              <div class="fp f">Политика конфиденциальности</div>
+              <div class="fp">Политика обработки файлов cookie</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
