@@ -39,12 +39,13 @@
   border-bottom: none;
 }
 .tarifs_list .tarif_card .card_item .txt_bolder {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 22px;
   color: #242424;
 }
 .tarifs_list .tarif_card .card_item .txt_bolder.clickable {
+  font-weight: 700;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
@@ -69,7 +70,7 @@
 .tarifs_list .tarif_card .card_item.tarif_title a {
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 26px;
   color: #242424;
 }
@@ -113,6 +114,7 @@
   background-clip: text;
 }
 .tarifs_list .tarif_card .card_item.tarif_purchase .tarif_connect {
+  margin-top: 3px;
   display: flex;
   gap: 10px;
 }

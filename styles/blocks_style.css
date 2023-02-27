@@ -64,8 +64,8 @@
   gap: 40px;
 }
 .provider_header .pr.rows .rates {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 130%;
   color: #0971e8;
   align-items: center;
   display: flex;
@@ -243,8 +243,8 @@
 }
 .equip-block .tt {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 130%;
   color: #676767;
 }
 
@@ -254,14 +254,15 @@
   display: flex;
   flex-direction: row;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 130%;
 }
 .filter-tabs .item {
   text-align: center;
   padding: 15px 40px;
   color: #676767;
   border: 1px solid #EBEBEB;
+  border-right: none;
 }
 .filter-tabs .item.active, .filter-tabs .item:hover {
   background: #EBEBEB;
@@ -270,10 +271,12 @@
 .filter-tabs .item:first-child {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
+  border-right: none;
 }
 .filter-tabs .item:last-child {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
+  border-right: 1px solid #EBEBEB;
 }
 @media (max-width: 767px) {
   .filter-tabs {
@@ -331,6 +334,10 @@
 
 .m-750 {
   max-width: 750px;
+}
+
+.m-710 {
+  max-width: 710px;
 }
 
 .ceo_txt.lg h1 {
@@ -452,7 +459,7 @@
   grid-template-columns: 2fr 1fr;
 }
 .tarif-page .tarif-info .options .section .it .nm {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
   line-height: 130%;
   color: #242424;
@@ -473,6 +480,7 @@
   color: #242424;
 }
 .tarif-page .order {
+  max-width: 370px;
   height: -moz-fit-content;
   height: fit-content;
   border: 1px solid #EBEBEB;
@@ -497,7 +505,7 @@
   width: 100%;
 }
 .tarif-page .order .act button {
-  margin: 15px 0px;
+  margin: 20px 0px 15px;
 }
 .tarif-page .order .act .prv_lbl {
   font-size: 12px;
@@ -536,4 +544,12 @@
   .t_line.pagin_bottom a {
     display: block;
   }
+}
+
+.provider_header + .tarifs_list {
+  margin: 20px 0px 40px;
+}
+
+.tarif_filters_controllers + .provider_header {
+  margin-top: 50px;
 }/*# sourceMappingURL=blocks_style.css.map */

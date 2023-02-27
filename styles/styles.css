@@ -136,8 +136,8 @@ a.btnr {
 
 .txt_reg {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 130%;
   color: #676767;
 }
 
@@ -171,7 +171,7 @@ a.btnr {
 }
 .req_form .prv_lbl {
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   color: #a2a2a2;
 }
@@ -297,8 +297,8 @@ a.bl {
   flex: 0 0 auto;
   color: #ffffff;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 130%;
   text-decoration: none;
 }
 .header .header_nav_f .header_nav a:hover {
@@ -647,7 +647,7 @@ a.bl {
   margin-right: 3px;
 }
 .ln_grid .ln_cell .item .txt {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   color: #676767;
 }
@@ -723,7 +723,7 @@ a.bl {
   line-height: 20px;
 }
 .reviews_block .reviews_list .review_item .rwv {
-  font-size: 14px;
+  font-size: 16px;
   margin: 30px 0px 12px;
 }
 
@@ -822,7 +822,7 @@ a.bl {
 .actions_list .action_list_grid .action_item .action_inf .prvd_txt {
   width: 100%;
   max-width: 370px;
-  font-size: 14px;
+  font-size: 16px;
   color: #676767;
 }
 
@@ -859,8 +859,8 @@ a.bl {
 }
 .providers_list .providers_list_grid .prvd_item .txt {
   margin: 30px 0px 20px;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 130%;
   color: #676767;
 }
 
@@ -946,10 +946,15 @@ a.bl {
     flex-direction: column;
   }
 }
-.articles_block .img img {
-  width: 100%;
+.articles_block .img {
+  border-radius: 15px;
+  background-image: url("/internet-providers/media/ttt.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .articles_block .articles_coulpe {
+  gap: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1025,6 +1030,8 @@ a.bl {
   max-width: 270px;
 }
 .footer .nav_grid .roww.l {
+  font-size: 16px;
+  line-height: 130%;
   text-align: right;
 }
 .footer .nav_grid .roww.l div {
@@ -1070,8 +1077,8 @@ a.bl {
 .footer .footer_btm .btns .fp_cont {
   display: flex;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 130%;
   color: #676767;
   margin-top: 50px;
 }

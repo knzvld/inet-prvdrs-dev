@@ -98,8 +98,8 @@ $breackpoint_sm: 576px;
     gap: 40px;
 
     .rates {
-      font-size: 14px;
-      line-height: 20px;
+      font-size: 16px;
+      line-height: 130%;
       color: #0971e8;
       align-items: center;
       display: flex;
@@ -300,8 +300,8 @@ $breackpoint_sm: 576px;
 
   .tt {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 130%;
     color: #676767;
 
   }
@@ -313,8 +313,8 @@ $breackpoint_sm: 576px;
   display: flex;
   flex-direction: row;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 130%;
 
   .item {
 
@@ -328,15 +328,18 @@ $breackpoint_sm: 576px;
     padding: 15px 40px;
     color: #676767;
     border: 1px solid #EBEBEB;
+    border-right: none;
 
     &:first-child {
       border-top-left-radius: 30px;
       border-bottom-left-radius: 30px;
+      border-right: none;
     }
 
     &:last-child {
       border-top-right-radius: 30px;
       border-bottom-right-radius: 30px;
+      border-right: 1px solid #EBEBEB;;
     }
   }
 
@@ -399,6 +402,9 @@ $breackpoint_sm: 576px;
 
 .m-750 {
   max-width: 750px;
+}
+.m-710 {
+  max-width: 710px;
 }
 
 .ceo_txt.lg {
@@ -530,7 +536,7 @@ h2.pr-inf {
           grid-template-columns: 2fr 1fr;
 
           .nm {
-            font-weight: 300;
+            font-weight: 400;
             font-size: 20px;
             line-height: 130%;
             color: #242424;
@@ -560,6 +566,7 @@ h2.pr-inf {
   }
 
   .order {
+    max-width: 370px;
     height: fit-content;
     border: 1px solid #EBEBEB;
     border-radius: 10px;
@@ -587,7 +594,7 @@ h2.pr-inf {
       }
 
       button {
-        margin: 15px 0px;
+        margin: 20px 0px 15px;
       }
 
       .prv_lbl {
@@ -628,4 +635,11 @@ h2.pr-inf {
     }
   }
 
+}
+
+.provider_header + .tarifs_list{
+  margin:20px 0px 40px
+}
+.tarif_filters_controllers + .provider_header{
+  margin-top: 50px;
 }
