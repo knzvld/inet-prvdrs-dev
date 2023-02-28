@@ -40,6 +40,11 @@ $color10: #ffffff;
 $grad1: linear-gradient(90deg, #ff9314 0%, #f11f52 100%);
 $grad2: linear-gradient(90deg, #0e69d1 0%, #0094ff 100%);
 
+h1, h2, h3 {
+  font-weight: 900!important;
+}
+
+
 body {
   margin: 0;
   padding: 0;
